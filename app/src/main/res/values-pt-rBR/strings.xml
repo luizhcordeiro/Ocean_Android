@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ocean_Android</string>
+    <string name="tvResultado">O resultado aparecerá aqui!</string>
+    <string name="prompt_password">Senha</string>
+    <string name="welcome">bem Vindo!</string>
+    <string name="invalid_username">Não é um usuário valido</string>
+    <string name="login_failed">Falha no Login</string>
+    <string name="btNovatela">"Nova Tela "</string>
+    <string name="phNome">Digite seu nome</string>
+    <string name="phSobrenome">Digite seu sobrenome</string>
+    <string name="txEnviar">Enviar</string>
+    <string name="txClear">Limpar</string>
+    <string name="invalid_password">"A senha deve ser >5 caracteres "</string>
+    <string name="action_sign_in_short">Entrar</string>
+    <string name="action_sign_in">Entrar ou Cadastrar</string>
+</resources>
