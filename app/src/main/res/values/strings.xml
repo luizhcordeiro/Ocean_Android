@@ -15,4 +15,5 @@
     <string name="phNome">Type your name</string>
     <string name="txEnviar">Send</string>
     <string name="txClear">Clear</string>
+    <string name="txVoltar">back</string>
 </resources>
