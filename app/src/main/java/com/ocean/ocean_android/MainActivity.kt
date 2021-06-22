@@ -1,5 +1,6 @@
 package com.ocean.ocean_android
 
+import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -16,6 +17,7 @@ class MainActivity : AppCompatActivity() {
         val btClear = findViewById<Button>(R.id.btClear)
         val etNome = findViewById<EditText>(R.id.etNome)
         val etSobrenome = findViewById<EditText>(R.id.etSobrenome)
+        val btNovatela = findViewById<Button>(R.id.btNovatela)
 
         btEnviar.setOnClickListener {
             tvResultado.text = StringBuilder().append(etNome.text).append(" ").append(etSobrenome.text).toString()
@@ -25,6 +27,11 @@ class MainActivity : AppCompatActivity() {
             etNome.setText("")
             etSobrenome.text.clear()
             tvResultado.setText(R.string.tvResultado)
+        }
+
+        btNovatela.setOnClickListener {
+            val novaTelaIntent = Intent(this, MainActivity2::class.java)
+            startActivity(novaTelaIntent)
         }
 
     }
